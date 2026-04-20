@@ -16,7 +16,7 @@ public class PrimeNumberCheck {
 
     static boolean isPrime(int n) {
         // 1. Numbers less than or equal to 1 are not prime
-        if (n <= 1) {
+        if (n <= 0) {
             return false;
         }
 
